@@ -1,44 +1,111 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*-------Hover.css*/
-
-.hvr-shutter-in-horizontal:before {
-    background-color: darkcyan;
-    background: rgba(0, 0, 0, 0.2);
-}
 
 /*-------Header*/
 
 body {
     font-family: "Raleway", sans-serif;
     font-weight: 300;
-    background-color:darkslategray;
+    /*background-color:darkslategray;*/
     margin:0;
     padding:0;
 }
 
 header {    
     width: 100%;
+    height: 100px;
     background-color: darkcyan;
     border-bottom: 2px solid black;
     color: lavenderblush;
-    padding: 0;
 }
 
 .logo{
-    background-color: darkcyan; 
+    padding:0;
+    text-align: left; 
+    text-transform: uppercase;
+}
+
+.navbar {
+    padding: 0;
+    height: 100px;
 }
 
 .navbar-brand {
     font-weight: 600;
+    padding-left: 20px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
-.navbar-brand span{
-    color: black;
+.navbar-brand:hover {
+  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon 1.5s ease-in-out infinite alternate;
+  animation: neon 1.5s ease-in-out infinite alternate;
 }
 
-.navbar-brand i{
-    color:rgb(2, 26, 2);
+.fa-tree{
+    color:lawngreen;
+}
+
+.nav-link{
+    font-weight:500;
+}
+
+.nav-link:hover{
+  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon 1.5s ease-in-out infinite alternate;
+  animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+/*-------Footer*/
+
+
+/*-------Home Page*/
+
+.bg-hero-image{
+   background: url("https://www.top100golfcourses.com/img/courses/tobacco-road_b9ac9a69-66ea-45e9-8ae8-caf8fa3eb41c.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+}
+
+.opacity-layer{ 
+    background-color: rgba(0,0,0,0.3);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*glow for webkit*/
+
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #fff, 0 0 40px #B6FF00, 0 0 70px #B6FF00, 0 0 80px #B6FF00, 0 0 90px #B6FF00, 0 0 100px #B6FF00;
+  }
+  to {
+    text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+  }
 }
 
 
