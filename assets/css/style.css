@@ -1,8 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*-------Hover.css*/
+
+.hvr-shutter-in-horizontal:before {
+    background-color: darkcyan;
+    background: rgba(0, 0, 0, 0.2);
+}
+
 /*-------Header*/
 
-nav {    
-    width: 100%;
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    background-color:darkslategray;
+    margin:0;
+    padding:0;
 }
+
+header {    
+    width: 100%;
+    background-color: darkcyan;
+    border-bottom: 2px solid black;
+    color: lavenderblush;
+    padding: 0;
+}
+
+.logo{
+    background-color: darkcyan; 
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.navbar-brand span{
+    color: black;
+}
+
+.navbar-brand i{
+    color:rgb(2, 26, 2);
+}
+
+
 
 
 
