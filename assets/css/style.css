@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Bowlby+One');
 
 
 /*-------Header*/
@@ -6,7 +6,8 @@
 body {
     font-family: "Raleway", sans-serif;
     font-weight: 300;
-    /*background-color:darkslategray;*/
+    font-size: 24px;
+    background-color:darkslategray;
     margin:0;
     padding:0;
 }
@@ -14,9 +15,11 @@ body {
 header {    
     width: 100%;
     height: 100px;
-    background-color: darkcyan;
+    background-color: darkslategray;
     border-bottom: 2px solid black;
     color: lavenderblush;
+    position:fixed;
+    z-index: 2;
 }
 
 .logo{
@@ -31,7 +34,7 @@ header {
 }
 
 .navbar-brand {
-    font-weight: 600;
+    font-family: "Bowlby One", sans-serif;
     padding-left: 20px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -50,6 +53,7 @@ header {
 
 .nav-link{
     font-weight:500;
+    font-size: 14px;
 }
 
 .nav-link:hover{
@@ -60,22 +64,132 @@ header {
 
 /*-------Footer*/
 
+.footer {    
+    width: 100%;
+    border-top: 2px solid black;
+    color: #000;
+    clear: both;
+    position: relative;
+    margin-top: 0px;
+    background-color: rgb(205, 225, 240);
+}
 
-/*-------Home Page*/
+.footer-row-main{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-row{
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    border-top: 0.5px solid black;
+}
+
+
+#sponsors-links, #social-links{
+    padding:0;
+    height:100%;
+}
+
+.footer-heading {
+    width:100%;
+    padding: 0px 0px 0px 20px;
+    margin: 0;
+    text-align:left;
+    line-height: 60px;
+    overflow:hidden;
+}
+
+.footer-links{
+    text-align: right;
+    line-height: 60px;
+    margin: 0 20px 0 0;
+}
+
+.footer-link{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin: .5rem .5rem 0 0;
+    border: 1px solid black;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fafafa;
+    box-shadow: 2px 2px black;
+}
+
+.footer-link:hover{
+    background-color: #f8420a;
+    box-shadow: 3px 3px black;
+}
+
+.footer-link a{
+    color: #000;
+}
+
+.footer-contact-details{
+    border-top: 0.5px solid black;
+    border-left: 0.5px solid black;
+}
+
+.contact{
+    margin-top:20px;
+    text-align: center;
+    line-height: 1;
+    font-size: 14px;
+}
+
+/*-------Section Headers*/
+
+.section-header{
+    font-family: "Exo", "sans-serif";
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    border-top: 1px solid black;
+    margin:auto;
+    color: rgb(246, 243, 243);
+    vertical-align: center;
+}
+
+.section-header h2{
+    height:100%;
+    padding: 0;
+    margin:0;
+}
+
+#next-event-header {
+    background-image: linear-gradient(rgb(15, 15, 15), rgb(15, 15, 15));
+}
+
+
+/*--------------------------------HOME PAGE-------------------------------*/
+/*--------------Hero*/
+
+.main-body{ 
+    padding: 100px 0px 0px 0px;
+}
 
 .bg-hero-image{
-   background: url("https://www.top100golfcourses.com/img/courses/tobacco-road_b9ac9a69-66ea-45e9-8ae8-caf8fa3eb41c.jpg") no-repeat center center fixed; 
+   background: url("https://www.top100golfcourses.com/img/courses/tobacco-road_b9ac9a69-66ea-45e9-8ae8-caf8fa3eb41c.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    height: 600px;
     padding: 0;
 }
 
-.opacity-layer{ 
-    background-color: rgba(0,0,0,0.3);
-    position: relative;
+.hero-opacity{ 
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -83,7 +197,188 @@ header {
 }
 
 .hero {
-    height: 400px;
+    height: 600px;
+    width: 100%; 
+}
+
+.hero-text-container{
+    position: relative;
+    top:300px;
+    left:40px;
+    height: 275px;
+    width: 350px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius:20px;
+    padding:5px 5px 5px 5px;
+    text-align: justify;
+}
+
+.hero-text-container span{
+    color: rgb(235, 234, 234);
+    font-size:14px;
+    font-weight:200;
+}
+
+.hero-text-container span a{
+    color: inherit
+}
+
+#hero-tag{
+    font-family: "Bowlby One", sans-serif;
+    font-size:130px;
+    text-align: right;
+    float:right;
+    width: 500px;
+    color: rgb(0, 255, 187);
+    padding:5px 20px 0px 0px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+/*--------------Reasons*/
+
+.section-opacity{ 
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+}
+
+.reasons-section {
+    background: url("https://images.squarespace-cdn.com/content/v1/5bb4b5bd93a63278971f86e7/1571133761047-LS5X8943B7WSTWFI7BVN/ke17ZwdGBToddI8pDm48kLPTJmR1xOPcz0gB-Sclgj0UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dslV1fpCmmQRAt7QNkDjI0PJCfvJI_DVn-SKIL7o9MnRZDqXZYzu2fuaodM4POSZ4w/ireland.jpg?format=2500w") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.reason {
+    height: 300px;
+    padding: 0;
+}
+
+#reason-one{
+    background-color: rgba(247, 14, 177, 0.4);
+}
+
+#reason-two{
+    background-color: rgba(67, 191, 243, 0.4);
+}
+
+#reason-three{
+    background-color: rgba(160, 243, 44, 0.4);
+}
+
+#reason-four{
+    background-color: rgba(247, 21, 4, 0.4);
+}
+
+.reason-icon{
+    height: 100px;
+    font-size: 50px;
+    margin:auto;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.reason-header{
+    font-family: "Exo", "sans-serif";
+    font-size: 24px;
+    font-weight: bold;
+    width:100%;
+}
+
+.reason-text{
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    line-height: 30px;
+}
+
+/*--------------Next Event*/
+
+.next-event-section{
+    margin:0;
+    padding:0;
+    clear:both;
+}
+
+.next-event-row a{
+     text-decoration: none;
+}
+
+.next-event-bg{
+    background: url("https://www.scotsman.com/images-e.jpimedia.uk/imagefetch/http://www.scotsman.com/webimage/Prestige.Item.1.78340133!image/image.jpg?width=640") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    padding: 0;
+}
+
+.next-event-details{
+    font-family: "Exo", "sans-serif";
+    font-size: 24px;
+    font-weight: bold;
+    margin:0 auto;
+    color:rgb(0, 0, 0);
+    position: relative;
+    top: 60px;  
+    width: 200px;
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    border-radius: 7px;
+}
+
+.next-event-details:hover{
+    background-color: rgba(248, 76, 8, 0.912);
+}
+
+.bg-next-event br{
+    padding-top: 40px;
+}
+
+.next-event-info{
+    background: url("https://i.stack.imgur.com/GjGKo.png") repeat;
+    padding:0;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    height:300px;
+    margin:0;
+}
+
+
+.next-event-info-opacity{
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top:20px;
+    margin:0;
+    height: 300px;
+    width: 100%;
+}
+
+.next-event-text{
+    padding: 0px 30px 0px 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.next-event-text a{
+    color:inherit;
+}
+
+.next-event-text a:hover{
+    text-decoration: underline;
 }
 
 
@@ -91,13 +386,129 @@ header {
 
 
 
+/*------ media queries*/
+
+@media only screen and (max-width: 992px) {
+    .reason{
+        height:150px;
+    }
+
+    .reason-icon {
+        float: left;
+        padding: 0px 20px 0px 40px;
+        margin-right: 20px;
+        width: 100px;
+        font-size: 44px;
+        line-height: 150px;
+        height: 150px;
+    }
+
+    .reason-header{
+        text-align: center;
+        padding: 0px 40px 0px 30px;
+        font-size: 2.5vw;
+        margin: 0;
+        line-height: 75px;
+        width: 100%;
+    }
+
+    .reason-text{
+        font-size: 14px;
+        padding: 0px 40px 0px 30px;
+        width: 100%;
+        line-height: 30px;
+    }
+
+    .next-event-text{
+        font-size: 2vw;
+    }
+
+    #hero-tag{
+        width: 350px;
+        font-size:90px;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+    .footer-links{
+        text-align: center;
+        margin:0;
+    }
+
+    .footer-contact-details{
+        height:150px;   
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .reason{
+        height:75px;
+    }
+
+    .reason-icon {
+        float: left;
+        padding: 0px 20px 0px 20px;
+        margin: 0;
+        width: 100px;
+        font-size: 28px;
+        line-height: 75px;
+    }
+
+    .reason-header{
+        float:left;
+        text-align: left;
+        padding: 0px 60px 0px 20px;
+        font-size: 2.5vw;
+        line-height: 75px;
+        width: 60%; 
+    }
+
+    #next-event-header{
+        text-align: center;
+        font-size: 4vw;
+        padding:0;
+    }
+
+    .next-event-text{
+        font-size: 2.25vw;
+    }
+
+    .hero-text-container{
+        margin: 0 auto;
+        width: 80%;
+        overflow:auto;
+        left:0px;
+        height:200px;
+    }
+
+    #hero-tag{     
+        font-size: 8vw;
+        width: 100%;
+        margin: 0 auto;
+        padding:0;
+        text-align:center;
+    }
+
+    .footer-links{
+        text-align: center;
+        margin:0;
+    }
+
+    .footer-contact-details{
+        height:150px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait){
+    .reason{
+        height:75px;
+    }
+}
 
 
 
 
-
-
-/*glow for webkit*/
+/*-------glow for webkit*/
 
 @-webkit-keyframes neon {
   from {
@@ -107,6 +518,10 @@ header {
     text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
   }
 }
+
+
+
+
 
 
 
