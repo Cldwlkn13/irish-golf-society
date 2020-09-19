@@ -1,4 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Bowlby+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Bowlby+One');
+
+
+/*-------Backgrounds*/
+.bg-common{
+    background-color: #043008;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='250' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.22'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-header{
+    background-color: rgb(4, 51, 6);
+}
+
+.bg-section-header{
+    background-color: rgb(4, 51, 6);
+}
+
+.bg-footer{
+    background-color: rgb(4, 51, 6);
+}
+
+/*-------Colors*/
+
+/* rgb(97, 196, 97); rgb(4, 51, 6);
+
+
 
 
 /*-------Header*/
@@ -7,12 +32,11 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     font-size: 24px;
-    background-color:darkslategray;
     margin:0;
     padding:0;
 }
 
-header {    
+header {  
     width: 100%;
     height: 100px;
     background-color: darkslategray;
@@ -20,12 +44,14 @@ header {
     color: lavenderblush;
     position:fixed;
     z-index: 2;
+    text-shadow: 2px 2px black;
 }
 
 .logo{
     padding:0;
     text-align: left; 
     text-transform: uppercase;
+    font-family: "Bowlby One", sans-serif;  
 }
 
 .navbar {
@@ -34,7 +60,6 @@ header {
 }
 
 .navbar-brand {
-    font-family: "Bowlby One", sans-serif;
     padding-left: 20px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -67,11 +92,10 @@ header {
 .footer {    
     width: 100%;
     border-top: 2px solid black;
-    color: #000;
+    color: #fff;
     clear: both;
     position: relative;
     margin-top: 0px;
-    background-color: rgb(205, 225, 240);
 }
 
 .footer-row-main{
@@ -84,9 +108,7 @@ header {
     height: 50%;
     padding: 0;
     margin: 0;
-    border-top: 0.5px solid black;
 }
-
 
 #sponsors-links, #social-links{
     padding:0;
@@ -109,10 +131,8 @@ header {
 }
 
 .footer-link{
-    height: 40px;
     width: 40px;
     border-radius: 40px;
-    margin: .5rem .5rem 0 0;
     border: 1px solid black;
     font-size: 18px;
     text-align: center;
@@ -122,17 +142,13 @@ header {
 }
 
 .footer-link:hover{
-    background-color: #f8420a;
-    box-shadow: 3px 3px black;
-}
-
-.footer-link a{
+    background-color: rgb(97, 196, 97);
+    box-shadow: 4px 4px black;
     color: #000;
 }
 
-.footer-contact-details{
-    border-top: 0.5px solid black;
-    border-left: 0.5px solid black;
+.footer-link a{
+    color: inherit;
 }
 
 .contact{
@@ -140,14 +156,29 @@ header {
     text-align: center;
     line-height: 1;
     font-size: 14px;
+
+}
+
+.footer-link a{
+    max-width:80%;
+    max-height:80%;
+    border-radius: 80%;
+    margin: 0;
+    color: #000;
+}
+
+.footer-link a img{
+    max-width:80%;
+    max-height:80%;
+    border-radius: 80%;
+    margin: 0;
 }
 
 /*-------Section Headers*/
 
 .section-header{
-    font-family: "Exo", "sans-serif";
-    font-weight: 400;
-    font-size: 28px;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 24px;
     text-transform: uppercase;
     padding: 0px 0px 0px 20px;
     height: 50px;
@@ -157,6 +188,7 @@ header {
     margin:auto;
     color: rgb(246, 243, 243);
     vertical-align: center;
+    text-shadow: 2px 2px #000;
 }
 
 .section-header h2{
@@ -165,15 +197,10 @@ header {
     margin:0;
 }
 
-#next-event-header {
-    background-image: linear-gradient(rgb(15, 15, 15), rgb(15, 15, 15));
-}
-
-
 /*--------------------------------HOME PAGE-------------------------------*/
 /*--------------Hero*/
 
-.main-body{ 
+.home-main-body{ 
     padding: 100px 0px 0px 0px;
 }
 
@@ -185,15 +212,10 @@ header {
     background-size: cover;
     height: 600px;
     padding: 0;
-}
-
-.hero-opacity{ 
-    background-color: rgba(0,0,0,0.4);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    -o-transition: all 0.75s ease-in-out;
 }
 
 .hero {
@@ -203,11 +225,11 @@ header {
 
 .hero-text-container{
     position: relative;
-    top:300px;
+    top:100px;
     left:40px;
     height: 275px;
     width: 350px;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.7);
     border-radius:20px;
     padding:5px 5px 5px 5px;
     text-align: justify;
@@ -229,9 +251,9 @@ header {
     text-align: right;
     float:right;
     width: 500px;
-    color: rgb(0, 255, 187);
+    color: rgb(97, 196, 97);
     padding:5px 20px 0px 0px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
 }
 
 
@@ -257,6 +279,7 @@ header {
     padding: 0;
     color: #fff;
     text-align: center;
+    overflow: hidden;
 }
 
 .reason {
@@ -265,19 +288,19 @@ header {
 }
 
 #reason-one{
-    background-color: rgba(247, 14, 177, 0.4);
+    background-color: rgba(0,0,0,0.5);
 }
 
 #reason-two{
-    background-color: rgba(67, 191, 243, 0.4);
+    background-color: rgba(0,0,0,0.5);
 }
 
 #reason-three{
-    background-color: rgba(160, 243, 44, 0.4);
+    background-color: rgba(0,0,0,0.5);
 }
 
 #reason-four{
-    background-color: rgba(247, 21, 4, 0.4);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .reason-icon{
@@ -286,13 +309,14 @@ header {
     margin:auto;
     padding-bottom: 15px;
     width: 100%;
+    text-shadow: 2px 2px #000;
 }
 
 .reason-header{
-    font-family: "Exo", "sans-serif";
+    font-family: "Bowlby One", sans-serif;
     font-size: 24px;
-    font-weight: bold;
-    width:100%;
+    text-shadow: 2px 2px #000;
+    letter-spacing: 0.65px;
 }
 
 .reason-text{
@@ -324,7 +348,6 @@ header {
 }
 
 .next-event-details{
-    font-family: "Exo", "sans-serif";
     font-size: 24px;
     font-weight: bold;
     margin:0 auto;
@@ -335,10 +358,12 @@ header {
     background-color: rgba(255,255,255,0.7);
     text-align: center;
     border-radius: 7px;
+    box-shadow: 2px 2px #000;
 }
 
 .next-event-details:hover{
-    background-color: rgba(248, 76, 8, 0.912);
+    background-color: rgb(97, 196, 97);
+    box-shadow: 4px 4px #000;
 }
 
 .bg-next-event br{
@@ -346,7 +371,6 @@ header {
 }
 
 .next-event-info{
-    background: url("https://i.stack.imgur.com/GjGKo.png") repeat;
     padding:0;
     color: #fff;
     font-size: 14px;
@@ -354,7 +378,6 @@ header {
     height:300px;
     margin:0;
 }
-
 
 .next-event-info-opacity{
     background-color: rgba(0,0,0,0.6);
@@ -382,6 +405,158 @@ header {
 }
 
 
+/*--------------------------------CALENDAR-------------------------------*/
+
+.calendar-main-body{
+    padding: 110px 10px 10px 10px;
+    background-color: #043008;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='250' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.22'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.calendar-main-body .row{
+    margin:0px 0px 20px 0px;
+}
+
+.calendar-table-row-light, .calendar-table-row-dark{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.calendar-table-row-light{
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+.calendar-table-row-dark{
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.calendar-event-img-wrapper{
+    margin-right: 20px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0px; 
+    width: 100%;
+}
+
+.calendar-event-img{
+    padding: 5px;
+    color: #000;
+    height: 200px;
+}
+
+.calendar-event-img a{
+    color: #000;
+}
+
+.calendar-event-text{
+    background-color: rgba(255,255,255,0.8);
+    padding: 2px 10px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 3px; 
+    box-shadow: 2px 2px #000;
+}
+
+.venue-link{
+    background-color: rgba(255,255,255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2px 40px;
+}
+
+.venue-link:hover{
+    background-color: rgb(4, 51, 6);
+    box-shadow: 4px 4px #000;
+}
+
+.venue-link a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.calendar-directions-wrapper{
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+
+.calendar-register-wrapper{
+    margin: 0 auto;
+}
+
+.calendar-directions{
+    background-color: rgb(97, 196, 97);
+    border-radius: 20px;
+    padding:5px;
+    font-weight: 500;
+    text-align:center;
+    border: 2px solid #fff;
+}
+
+.calendar-directions:hover{
+    background-color: rgb(4, 51, 6);
+    border: 2px solid #000;
+}
+
+.calendar-directions a{
+    color: #fafafa;
+    font-size: 16px;
+}
+
+.calendar-directions a:hover{
+    text-decoration: none;
+}
+
+.calendar-register{
+    background-color: rgb(97, 196, 97);
+    border-radius: 20px;
+    padding:5px;
+    font-weight: 500;
+    text-align:center;
+    border: 2px solid #fff;
+}
+
+.calendar-register:hover{
+    background-color: rgb(4, 51, 6);
+    border: 2px solid #000;
+}
+
+.calendar-register a{
+    color: #fafafa;
+    font-size: 16px;
+}
+
+.calendar-register a:hover{
+    text-decoration: none;
+}
+
+#calendar-event-one{
+     background: url("https://www.golfdigest.com/content/dam/images/golfdigest/fullset/2019/07/25/5d39c18956b76000097672e1_AdareManor18_18_PANG.jpg") no-repeat center center;
+}
+
+#calendar-event-two{
+     background: url("https://images.squarespace-cdn.com/content/v1/554f2e09e4b01c81ee8cb87e/1517488438476-GZLP0VTXSCQ4WK6Y72VL/ke17ZwdGBToddI8pDm48kJRqFJ19D4P4EwsC9z3fiewUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dkV64dCjSK7Zaaf7dwPYPO_gHf_vjqrS5WJoq1nmwotrP7cJNZlDXbgJNE9ef52e8w/CSGC+Home_1_4.jpeg?format=2500w") no-repeat center center;
+}
+
+#calendar-event-three{
+     background: url("https://www.druidsglenresort.com/cmsGallery/imagerow/7740/resized/1600x900/druids_glen_15_approach_reflections_5_7539.jpg") no-repeat center center;
+}
+
+#calendar-event-four{
+     background: url("https://irishgolfer.ie/wp-content/uploads/2020/01/Aerial-shot-of-Royal-Dublin-Golf-Club-1068x592.jpg") no-repeat center center;
+}
+
+#calendar-event-five{
+     background: url("https://www.oldgroundhotelennis.com/upload/slide_images/lahinch_golf_club.jpg") no-repeat center center;
+}
+
+#calendar-event-six{
+     background: url("https://www.golfholidays.com/images/2000-16454/royal-portrush-golf-club-the-finest-links-course-in-northern-ireland.jpg") no-repeat center center;
+}
 
 
 
@@ -389,6 +564,14 @@ header {
 /*------ media queries*/
 
 @media only screen and (max-width: 992px) {
+    
+    #hero-tag{
+        width: 350px;
+        font-size:90px;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    
     .reason{
         height:150px;
     }
@@ -420,14 +603,7 @@ header {
     }
 
     .next-event-text{
-        font-size: 2vw;
-    }
-
-    #hero-tag{
-        width: 350px;
-        font-size:90px;
-        padding-top: 100px;
-        padding-bottom: 60px;
+        font-size: 18px;
     }
 
     .footer-links{
@@ -438,9 +614,40 @@ header {
     .footer-contact-details{
         height:150px;   
     }
+
+    .calendar-event-img-wrapper{
+        margin-right: 0px;
+    }
+
+    .calendar-directions-wrapper{
+        padding: 20px 0px 20px 0px;
+        max-width: 60%;
+    }
+
+    .calendar-register-wrapper{
+        padding: 0px;
+        max-width: 60%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
+    
+    .hero-text-container{
+        margin: 0 auto;
+        width: 80%;
+        overflow:auto;
+        left:0px;
+        height:250px;
+    }
+
+    #hero-tag{     
+        font-size: 8vw;
+        width: 100%;
+        padding:0;
+        text-align:center;
+        margin-top: 30px;
+    }
+   
     .reason{
         height:75px;
     }
@@ -470,23 +677,7 @@ header {
     }
 
     .next-event-text{
-        font-size: 2.25vw;
-    }
-
-    .hero-text-container{
-        margin: 0 auto;
-        width: 80%;
-        overflow:auto;
-        left:0px;
-        height:200px;
-    }
-
-    #hero-tag{     
-        font-size: 8vw;
-        width: 100%;
-        margin: 0 auto;
-        padding:0;
-        text-align:center;
+        font-size: 12px;
     }
 
     .footer-links{
@@ -497,6 +688,20 @@ header {
     .footer-contact-details{
         height:150px;
     }
+
+    .calendar-event-img-wrapper{
+        margin-right: 0px;
+    }
+
+    .calendar-directions-wrapper{
+        padding: 20px 0px 20px 0px;
+        max-width: 60%;
+    }
+
+    .calendar-register-wrapper{
+        padding: 0px;
+        max-width: 60%;
+    }
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait){
@@ -504,6 +709,11 @@ header {
         height:75px;
     }
 }
+
+@media screen and (min-width: 992px) {
+  body {
+     font-size: 24px;
+  }
 
 
 
