@@ -3,9 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Irish Golf Society - Home</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-header">
+            <div class="logo col-6">
+                <a class="navbar-brand" href="index.html"><span>The Irish Golf Society</span> <i class="fa fa-tree" aria-hidden="true"></i></a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="calendar.html">Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="standings.html">Standings</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>  
+    </header>
+
+    <div class="container-fluid no-gutters register-main-body bg-svg-three">
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" required>
+            <br>
+            <br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" required>
+            <br>
+            <br>
+            <label for="cars">Event:</label>
+            <select id="events" name="events" size="6" required>
+                <option value="Adare Manor">Adare Manor - date</option>
+                <option value="Rosses Point">Rosses Point - date</option>
+                <option value="Druids Glen">Druids Glen - date</option>
+                <option value="Royal Dublin">Royal Dublin - date</option>
+                <option value="Lahinch">Lahinch - date</option>
+                <option value="Royal Portrush">Royal Portrush - date</option>
+            </select>
+            <br>
+            <br>
+            <label for="address1">Address1</label>
+            <input type="text" id="address1" name="address1" required>
+            <br>
+            <br>
+            <label for="address2">Address2</label>
+            <input type="text" id="address2" name="address2" required>
+            <br>
+            <br>   
+            <label for="city">City</label>       
+            <input type="text" id="city" name="city" required>
+            <br>
+            <br>
+            <label for="County">County</label>
+            <input type="text" id="county" name="county" required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="tel">Tel</label>
+            <input type="tel" id="tel" name="tel" required>
+            <br>
+            <br>
+            <label for="home-club">Home Club</label>
+            <input type="text" id="home-club" name="home-club">
+            <br>
+            <br>
+            <label for="hcap">Handicap</label>
+            <input type="number" id="hcap" name="hcap" min="0" max="36" required>
+            <br>
+            <br>
+            <div class="submit-button">
+                <input class="bg-success" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+        <footer class="continer-fluid footer bg-footer">
+            <div class="row no-gutters footer-row-main">
+                <div class="col-lg-8 col-md-12">
+                    <div class="row no-gutters footer-row" id="sponsors">
+                        <div class="col-md-8">
+                            <h6 class="footer-heading d-none d-lg-block">Check out our sponsors...</h6>
+                        </div>
+                        <div class="col-lg-4 col-md-12" id="sponsors-links">
+                            <ul class="list-inline footer-links">
+                                <li class="list-inline-item footer-link">
+                                    <a href="https://eu.callawaygolf.com/" target="blank"><img src="https://i.pinimg.com/originals/65/62/94/656294ac5d8f442ff6f71defae3aafbb.png" alt="Callaway"></a>
+                                </li>
+                                <li class="list-inline-item footer-link">
+                                    <a href="https://www.nike.com/ie/" target="blank"><img src="https://i.pinimg.com/originals/20/60/2d/20602d43cc993811e5a6bd1886af4f33.png" alt="Nike"></a>
+                                </li>
+                                <li class="list-inline-item footer-link">
+                                    <a href="https://ping.com/en-us/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/PING_logo.svg/1280px-PING_logo.svg.png" alt="Ping"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row no-gutters footer-row" id="social">
+                        <div class="col-md-8">
+                            <h6 class="footer-heading d-none d-lg-block">Get connected on our social media...</h6> 
+                        </div>
+                        <div class="col-lg-4 col-md-12" id="social-links">                
+                            <ul class="list-inline footer-links">
+                                <li class="list-inline-item footer-link">
+                                    <a href="https://facebook.com" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="list-inline-item footer-link">
+                                    <a href="https://twitter.com" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="list-inline-item footer-link">
+                                    <a href="https://instagram.com" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 footer-contact-details">
+                    <p class="contact">
+                        <b><i class="fa fa-home" aria-hidden="true"></i></b> 107 Derval Way<br>
+                        Ballyboughtoe<br>
+                        Dublin 4<br>                       
+                        <br>
+                        <b><i class="fa fa-envelope-o" aria-hidden="true"></i></b> info@irishgolfsociety.ie<br>
+                        <br>
+                         <b><i class="fa fa-phone" aria-hidden="true"></i></b> 01-993-54990
+                    </p>
+                </div>
+            </div>
+    </footer>
 </body>
 </html>
