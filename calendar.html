@@ -1,250 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Irish Golf Society - Calendar</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-header">
-            <div class="logo col-6">
-                <a class="navbar-brand" href="index.html"><span>The Irish Golf Society</span> <i class="fa fa-tree" aria-hidden="true"></i></a>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-----LINKS-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-----TITLE-->
+      <title>Irish Golf Society - Calendar</title>
+   </head>
+   <body>
+      <!-----HEADER-->
+      <header class="bg-header">
+         <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid" id="nav-container">
+               <!-----LOGO-->
+               <a class="navbar-brand" href="index.html"><span>The Irish Golf Society</span> <i class="fa fa-tree" aria-hidden="true"></i><span class="sr-only">Tree Logo</span></a>
+               <!-----NAV TOGGLER-->
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
             </div>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="calendar.html">Calendar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="standings.html">Standings</a>
-                    </li>
-                </ul>
+            <!-----NAV ITEMS-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item active">
+                     <a class="nav-link" href="calendar.html">Calendar</a>
+                     <span class="sr-only">(current)</span>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="standings.html">Standings</a>
+                  </li>
+               </ul>
             </div>
-        </nav>  
-    </header>
-    <div class="container-fluid calendar-main-body bg-svg-three">        
-                <div class="row calendar-table-row calendar-table-row">
-                    <div class="col-lg-5  calendar-event-img-wrapper">
-                        <div class="calendar-event-img" id="calendar-event-one">
-                            <span class="calendar-event-text"><strong>Saturday 22nd Oct 2020</strong></span>
-                            <br>
-                            <div class="calendar-event-text venue-link">
-                                <a href="">Adare Manor
-                                    <span class="tooltiptext">Go to Course Site</span>
-                                </a>
-                            </div>
-                            <br>
-                            <span class="calendar-event-text"><b>€89pp</b></span>
+         </nav>
+      </header>
+      <!-----MAIN-BODY-->
+      <div class="container-fluid calendar-main-body bg-svg-theme">
+         <div class="rows">
+            <!-----EVENT ONE - ADARE MANOR-->
+            <div class="row calendar-table-row">
+               <div class="col-lg-5 calendar-event-img-wrapper">
+                  <div class="calendar-event-img" id="calendar-event-one">
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><strong>Saturday 22nd Oct 2020</strong></span>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
-                        <div class="calendar-directions">
-                            <a href="https://www.google.com/maps/place/Adare+Manor/@52.5641886,-8.7778256,15z/data=!4m8!3m7!1s0x0:0xd17913b9a9378857!5m2!4m1!1i2!8m2!3d52.5641886!4d-8.7778256?hl=en" target="_blank">Click Here for Directions <i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <a href="http://www.adaremanorgolfclub.com/" class="calendar-venue-link d-inline-block" target="_blank"> Adare Manor
+                           <span class="tooltiptext d-none d-lg-block">www.adaremanorgolfclub.com</span>
+                           </a>
                         </div>
-                    </div>   
-                    <div class="col-lg-3 col-md-12 calendar-register-wrapper">
-                        <div class="calendar-register">
-                            <a href="register.html">Click here to Register</a>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><b>€89pp</b></span>
                         </div>
-                    </div>   
-                </div>
-
-                <div class="row calendar-table-row calendar-table-row">
-                    <div class="col-lg-5 calendar-event-img-wrapper">
-                        <div class="calendar-event-img" id="calendar-event-two">
-                            <span class="calendar-event-text"><strong>Saturday 17th Nov 2020</strong></span>
-                            <br>
-                            <div class="calendar-event-text venue-link">
-                                <a href="">Rosses Point
-                                    <span class="tooltiptext">Go to Course Site</span>
-                                </a>
-                            </div>
-                            <br>
-                            <span class="calendar-event-text"><b>€86pp</b></span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
-                        <div class="calendar-directions">
-                            <a href="" target="_blank">Click Here for Directions <i class="fa fa-map-marker" aria-hidden="true"></i></a>
-                        </div>
-                    </div>   
-                    <div class="col-lg-3 col-md-12 calendar-register-wrapper">
-                        <div class="calendar-register">
-                            <a href="register.html">Click here to Register</a>
-                        </div>
-                    </div>   
-                </div>
-
-                <div class="row calendar-table-row calendar-table-row">
-                    <div class="col-lg-5 calendar-event-img-wrapper">
-                        <div class="calendar-event-img" id="calendar-event-three">
-                            <span class="calendar-event-text"><strong>Saturday 9th Jan 2021</strong></span>
-                            <br>
-                            <div class="calendar-event-text venue-link">
-                                <a href="">Druids Glen
-                                    <span class="tooltiptext">Go to Course Site</span>
-                                </a>
-                            </div>
-                            <br>
-                            <span class="calendar-event-text"><b>€65pp</b></span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
-                        <div class="calendar-directions">
-                            <a href="" target="_blank">Click Here for Directions <i class="fa fa-map-marker" aria-hidden="true"></i></a>
-                        </div>
-                    </div>   
-                    <div class="col-lg-3 col-md-12 calendar-register-wrapper">
-                        <div class="calendar-register">
-                            <a href="register.html">Click here to Register</a>
-                        </div>
-                    </div>   
-                </div>
-
-                <div class="row calendar-table-row calendar-table-row">
-                    <div class="col-lg-5 calendar-event-img-wrapper">
-                        <div class="calendar-event-img" id="calendar-event-four">
-                            <span class="calendar-event-text"><strong>Saturday 13th Mar 2021</strong></span>
-                            <br>
-                            <div class="calendar-event-text venue-link">
-                                <a href="">Royal Dublin
-                                    <span class="tooltiptext">Go to Course Site</span>
-                                </a>
-                            </div>
-                            <br>
-                            <span class="calendar-event-text"><b>€95pp</b></span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
-                        <div class="calendar-directions">
-                            <a href="" target="_blank">Click Here for Directions <i class="fa fa-map-marker" aria-hidden="true"></i></a>
-                        </div>
-                    </div>   
-                    <div class="col-lg-3 col-md-12 calendar-register-wrapper">
-                        <div class="calendar-register">
-                            <a href="register.html">Click here to Register</a>
-                        </div>
-                    </div>   
-                </div>
-
-                <div class="row calendar-table-row calendar-table-row">
-                    <div class="col-lg-5 calendar-event-img-wrapper">
-                        <div class="calendar-event-img" id="calendar-event-five">
-                            <span class="calendar-event-text"><strong>Saturday 30th Apr 2021</strong></span>
-                            <br>
-                            <div class="calendar-event-text venue-link">
-                                <a href="">Lahinch GC
-                                    <span class="tooltiptext">Go to Course Site</span>
-                                </a>
-                            </div>
-                            <br>
-                            <span class="calendar-event-text"><b>€107pp</b></span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
-                        <div class="calendar-directions">
-                            <a href="" target="_blank">Click Here for Directions <i class="fa fa-map-marker" aria-hidden="true"></i></a>
-                        </div>
-                    </div>   
-                    <div class="col-lg-3 col-md-12 calendar-register-wrapper">
-                        <div class="calendar-register">
-                            <a href="register.html">Click here to Register</a>
-                        </div>
-                    </div>   
-                </div>
-
-                <div class="row calendar-table-row calendar-table-row">
-                    <div class="col-lg-5 calendar-event-img-wrapper">
-                        <div class="calendar-event-img" id="calendar-event-six">
-                            <span class="calendar-event-text"><strong>Saturday 6th Jun 2021</strong></span>
-                            <br>
-                            <div class="calendar-event-text venue-link">
-                                <a href="">Royal Portrush
-                                    <span class="tooltiptext">Go to Course Site</span>
-                                </a>
-                            </div>
-                            <br>
-                            <span class="calendar-event-text"><b>€144pp</b></span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
-                        <div class="calendar-directions">
-                            <a href="" target="_blank">Click Here for Directions <i class="fa fa-map-marker" aria-hidden="true"></i></a>
-                        </div>
-                    </div>   
-                    <div class="col-lg-3 col-md-12 calendar-register-wrapper">
-                        <div class="calendar-register">
-                            <a href="register.html">Click here to Register</a>
-                        </div>
-                    </div>   
-                </div>
-    </div>   
-    <footer class="continer-fluid footer bg-footer">
-            <div class="row no-gutters footer-row-main">
-                <div class="col-lg-8 col-md-12">
-                    <div class="row no-gutters footer-row" id="sponsors">
-                        <div class="col-md-8">
-                            <h6 class="footer-heading d-none d-lg-block">Check out our sponsors...</h6>
-                        </div>
-                        <div class="col-lg-4 col-md-12" id="sponsors-links">
-                            <ul class="list-inline footer-links">
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://eu.callawaygolf.com/" target="blank"><img src="https://i.pinimg.com/originals/65/62/94/656294ac5d8f442ff6f71defae3aafbb.png" alt="Callaway"></a>
-                                </li>
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://www.nike.com/ie/" target="blank"><img src="https://i.pinimg.com/originals/20/60/2d/20602d43cc993811e5a6bd1886af4f33.png" alt="Nike"></a>
-                                </li>
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://ping.com/en-us/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/PING_logo.svg/1280px-PING_logo.svg.png" alt="Ping"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row no-gutters footer-row" id="social">
-                        <div class="col-md-8">
-                            <h6 class="footer-heading d-none d-lg-block">Get connected on our social media...</h6> 
-                        </div>
-                        <div class="col-lg-4 col-md-12" id="social-links">                
-                            <ul class="list-inline footer-links">
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://facebook.com" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                </li>
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://twitter.com" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                </li>
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://instagram.com" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 footer-contact-details">
-                    <p class="contact">
-                        <b><i class="fa fa-home" aria-hidden="true"></i></b> 107 Derval Way<br>
-                        Ballyboughtoe<br>
-                        Dublin 4<br>                       
-                        <br>
-                        <b><i class="fa fa-envelope-o" aria-hidden="true"></i></b> info@irishgolfsociety.ie<br>
-                        <br>
-                         <b><i class="fa fa-phone" aria-hidden="true"></i></b> 01-993-54990
-                    </p>
-                </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
+                  <div class="calendar-directions">
+                     <iframe class="calendar-map" frameborder="1" scrolling="yes" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Adare%20Manor,%20Adare,%20Co.Limerick+(Adare%20Manor)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>                         
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-register-wrapper">
+                  <!----PRIZES-->
+                  <div class="calendar-event-prizes">
+                     <h6>Prizes</h6>
+                     <br>
+                     <p><b>Category Winners:</b> 7-night Trip for 2 to Turkey.</p>
+                     <p><b>Category 2nd:</b> 2 x VIP Pass to Ryder Cup 2026 </p>
+                     <p><b>Category 3rd:</b> €200 McGuirks Voucher.</p>
+                  </div>
+                  <!----REGISTER BUTTON-->            
+                  <div class="calendar-register">
+                     <a href="register.html">Click here to Register</a>
+                  </div>
+               </div>
             </div>
-    </footer>
-
-</body>
+            <!-----EVENT TWO - ROSSES POINT-->
+            <div class="row calendar-table-row">
+               <div class="col-lg-5 calendar-event-img-wrapper">
+                  <div class="calendar-event-img" id="calendar-event-two">
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><strong>Saturday 17th Nov 2020</strong></span>
+                        </div>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <a href="https://www.countysligogolfclub.ie/" class="calendar-venue-link d-inline-block" target="_blank"> Rosses Point
+                           <span class="tooltiptext d-none d-lg-block">www.countysligogolfclub.ie</span>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><b>€86pp</b></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
+                  <div class="calendar-directions">
+                     <iframe class="calendar-map" frameborder="1" scrolling="yes" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=County%20Sligo%20Golf%20Club+(Rosses%20Point)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-register-wrapper">
+                  <!----PRIZES-->
+                  <div class="calendar-event-prizes">
+                     <h6>Prizes</h6>
+                     <br>
+                     <p><b>Category Winners:</b> TBC</p>
+                     <p><b>Category 2nd:</b> TBC</p>
+                     <p><b>Category 3rd:</b> TBC</p>
+                  </div>
+                  <!----REGISTER BUTTON-->  
+                  <div class="calendar-register">
+                     <a href="register.html">Click here to Register</a>
+                  </div>
+               </div>
+            </div>
+            <!-----EVENT THREE - DRUIDS GLEN-->
+            <div class="row calendar-table-row">
+               <div class="col-lg-5 calendar-event-img-wrapper">
+                  <div class="calendar-event-img" id="calendar-event-three">
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><strong>Saturday 9th Jan 2021</strong></span>
+                        </div>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <a href="https://www.druidsglenresort.com/druids-glen-golf-course-wicklow.html" class="calendar-venue-link d-inline-block" target="_blank"> Druids Glen
+                           <span class="tooltiptext d-none d-lg-block">www.druidsglenresort.com</span>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><b>€65pp</b></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
+                  <div class="calendar-directions">
+                     <iframe class="calendar-map" frameborder="1" scrolling="yes" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Druids%20Glen%20Golf%20Club+(Rosses%20Point)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-register-wrapper">
+                  <!----PRIZES-->
+                  <div class="calendar-event-prizes">
+                     <h6>Prizes</h6>
+                     <br>
+                     <p><b>Category Winners:</b> TBC</p>
+                     <p><b>Category 2nd:</b> TBC</p>
+                     <p><b>Category 3rd:</b> TBC</p>
+                  </div>
+                  <!----REGISTER BUTTON-->  
+                  <div class="calendar-register">
+                     <a href="register.html">Click here to Register</a>
+                  </div>
+               </div>
+            </div>
+            <!-----EVENT FOUR - ROYAL DUBLIN-->
+            <div class="row calendar-table-row">
+               <div class="col-lg-5 calendar-event-img-wrapper">
+                  <div class="calendar-event-img" id="calendar-event-four">
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><strong>Saturday 13th Mar 2021</strong></span>
+                        </div>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <a href="https://www.theroyaldublingolfclub.com/" class="calendar-venue-link d-inline-block" target="_blank"> Royal Dublin
+                           <span class="tooltiptext d-none d-lg-block">www.theroyaldublingolfclub.com</span>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><b>€95pp</b></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
+                  <div class="calendar-directions">
+                     <iframe class="calendar-map" frameborder="1" scrolling="yes" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Royal%20Dublin%20Golf%20Club+(Rosses%20Point)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-register-wrapper">
+                  <!----PRIZES-->
+                  <div class="calendar-event-prizes">
+                     <h6>Prizes</h6>
+                     <br>
+                     <p><b>Category Winners:</b> TBC</p>
+                     <p><b>Category 2nd:</b> TBC</p>
+                     <p><b>Category 3rd:</b> TBC</p>
+                  </div>
+                  <!----REGISTER BUTTON-->  
+                  <div class="calendar-register">
+                     <a href="register.html">Click here to Register</a>
+                  </div>
+               </div>
+            </div>
+            <!-----EVENT FIVE - LAHINCH-->
+            <div class="row calendar-table-row">
+               <div class="col-lg-5 calendar-event-img-wrapper">
+                  <div class="calendar-event-img" id="calendar-event-five">
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><strong>Saturday 30th Apr 2021</strong></span>
+                        </div>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <a href="https://lahinchgolf.com/" class="calendar-venue-link d-inline-block" target="_blank"> Lahinch GC
+                           <span class="tooltiptext d-none d-lg-block">www.lahinchgolf.com</span>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><b>€107pp</b></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
+                  <div class="calendar-directions">
+                     <iframe class="calendar-map" frameborder="1" scrolling="yes" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Lahinch%20Golf%20Club+(Rosses%20Point)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-register-wrapper">
+                  <!----PRIZES-->
+                  <div class="calendar-event-prizes">
+                     <h6>Prizes</h6>
+                     <br>
+                     <p><b>Category Winners:</b> TBC</p>
+                     <p><b>Category 2nd:</b> TBC</p>
+                     <p><b>Category 3rd:</b> TBC</p>
+                  </div>
+                  <!----REGISTER BUTTON-->  
+                  <div class="calendar-register">
+                     <a href="register.html">Click here to Register</a>
+                  </div>
+               </div>
+            </div>
+            <!-----EVENT SIX - ROYAL PORTRUSH-->
+            <div class="row calendar-table-row">
+               <div class="col-lg-5 calendar-event-img-wrapper">
+                  <div class="calendar-event-img" id="calendar-event-six">
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><strong>Saturday 6th Jun 2021</strong></span>
+                        </div>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <a href="https://www.royalportrushgolfclub.com/" class="calendar-venue-link d-inline-block" target="_blank"> Royal Portrush
+                           <span class="tooltiptext d-none d-lg-block">www.royalportrushgolfclub.com</span>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-12">
+                           <span class="calendar-event-text"><b>€144pp</b></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-directions-wrapper">
+                  <div class="calendar-directions">
+                     <iframe class="calendar-map" frameborder="1" scrolling="yes" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Royal%20Portrush%20Golf%20Club+(Rosses%20Point)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12 calendar-register-wrapper">
+                  <!----PRIZES-->
+                  <div class="calendar-event-prizes">
+                     <h6>Prizes</h6>
+                     <br>
+                     <p><b>Category Winners:</b> TBC</p>
+                     <p><b>Category 2nd:</b> TBC</p>
+                     <p><b>Category 3rd:</b> TBC</p>
+                  </div>
+                  <!----REGISTER BUTTON-->  
+                  <div class="calendar-register">
+                     <a href="register.html">Click here to Register</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-----FOOTER-->
+      <footer class="continer-fluid footer bg-footer">
+         <div class="row no-gutters footer-row-main">
+            <div class="col-lg-8 col-md-12">
+               <div class="row no-gutters footer-row" id="sponsors">
+                  <div class="col-lg-8">
+                     <h6 class="footer-heading d-lg-block">Check out our sponsors...</h6>
+                  </div>
+                  <!-----SPONSORS-->
+                  <div class="col-lg-4 col-md-12" id="sponsors-links">
+                     <ul class="list-inline footer-links">
+                        <li class="list-inline-item footer-link">
+                           <a href="https://eu.callawaygolf.com/" target="_blank"><img src="https://i.pinimg.com/originals/65/62/94/656294ac5d8f442ff6f71defae3aafbb.png" alt="Callaway">
+                           <span class="sr-only">Callaway</span></a>
+                        </li>
+                        <li class="list-inline-item footer-link">
+                           <a href="https://www.nike.com/ie/" target="_blank"><img src="https://i.pinimg.com/originals/20/60/2d/20602d43cc993811e5a6bd1886af4f33.png" alt="Nike">
+                           <span class="sr-only">Nike</span></a>
+                        </li>
+                        <li class="list-inline-item footer-link">
+                           <a href="https://ping.com/en-us/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/PING_logo.svg/1280px-PING_logo.svg.png" alt="Ping">
+                           <span class="sr-only">Ping</span></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row no-gutters footer-row" id="social">
+                  <div class="col-lg-8">
+                     <h6 class="footer-heading d-lg-block">Get connected on our social media...</h6>
+                  </div>
+                  <!-----SOCIAL-->
+                  <div class="col-lg-4 col-md-12" id="social-links">
+                     <ul class="list-inline footer-links">
+                        <li class="list-inline-item footer-link">
+                           <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
+                           <span class="sr-only">Facebook</span></a>
+                        </li>
+                        <li class="list-inline-item footer-link">
+                           <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>
+                           <span class="sr-only">Twitter</span></a>
+                        </li>
+                        <li class="list-inline-item footer-link">
+                           <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>
+                           <span class="sr-only">Instagram</span></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-----CONTACT-->
+            <div class="col-lg-4 col-md-12 footer-contact-details">
+               <p class="contact">
+                  <b><i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">Address</span></b> 107 Derval Way<br>
+                  Ballyboughtoe<br>
+                  Dublin 4<br>                       
+                  <br>
+                  <b><i class="fa fa-envelope-o" aria-hidden="true"></i><span class="sr-only">Email</span></b><a href="mailto:info@irishgolfsociety.ie"> info@irishgolfsociety.ie</a><br>
+                  <br>
+                  <b><i class="fa fa-phone" aria-hidden="true"></i><span class="sr-only">Phone</span></b> 01-993-54990
+               </p>
+            </div>
+         </div>
+      </footer>
+      <!----SCRIPTS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   </body>
 </html>
