@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Irish Golf Society - Home</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-header">
-            <div class="logo col-6">
-                <a class="navbar-brand" href="index.html"><span>The Irish Golf Society</span> <i class="fa fa-tree" aria-hidden="true"></i></a>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-----LINKS-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-----TITLE-->
+      <title>Irish Golf Society - Register</title>
+   </head>
+   <body>
+      <!-----HEADER-->
+      <header class="bg-header">
+         <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid" id="nav-container">
+               <!-----LOGO-->
+               <a class="navbar-brand" href="index.html"><span>The Irish Golf Society</span> <i class="fa fa-tree" aria-hidden="true"></i><span class="sr-only">Tree Logo</span></a>
+               <!-----NAV TOGGLER-->
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
             </div>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="calendar.html">Calendar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="standings.html">Standings</a>
-                    </li>
-                </ul>
+            <!-----NAV ITEMS-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="calendar.html">Calendar</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="standings.html">Standings</a>
+                  </li>
+               </ul>
             </div>
-        </nav>  
-    </header>
-
-    <div class="container-fluid no-gutters register-main-body bg-svg-three">
-        <form>
+         </nav>
+      </header>
+      <!-----MAIN-BODY-->
+      <div class="container-fluid no-gutters register-main-body bg-svg-theme">
+         <!-----FORM-->
+         <form>
             <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname" required>
             <br>
@@ -48,12 +52,12 @@
             <br>
             <label for="cars">Event:</label>
             <select id="events" name="events" size="6" required>
-                <option value="Adare Manor">Adare Manor - Saturday 22nd Oct 2020</option>
-                <option value="Rosses Point">Rosses Point - Saturday 17th Nov 2020</option>
-                <option value="Druids Glen">Druids Glen - Saturday 9th Jan 2021</option>
-                <option value="Royal Dublin">Royal Dublin - Saturday 13th Mar 2021</option>
-                <option value="Lahinch">Lahinch - Saturday 30th Apr 2021</option>
-                <option value="Royal Portrush">Royal Portrush - Saturday 6th Jun 2021</option>
+               <option value="Adare Manor">Adare Manor - Saturday 22nd Oct 2020</option>
+               <option value="Rosses Point">Rosses Point - Saturday 17th Nov 2020</option>
+               <option value="Druids Glen">Druids Glen - Saturday 9th Jan 2021</option>
+               <option value="Royal Dublin">Royal Dublin - Saturday 13th Mar 2021</option>
+               <option value="Lahinch">Lahinch - Saturday 30th Apr 2021</option>
+               <option value="Royal Portrush">Royal Portrush - Saturday 6th Jun 2021</option>
             </select>
             <br>
             <br>
@@ -85,68 +89,85 @@
             <input type="text" id="home-club" name="home-club">
             <br>
             <br>
+            <label for="gui">GUI Number</label>
+            <input type="text" id="gui" name="gui" required>
+            <br>
+            <br>   
             <label for="hcap">Handicap</label>
             <input type="number" id="hcap" name="hcap" min="0" max="36" required>
             <br>
             <br>
             <div class="submit-button">
-                <input class="bg-success" type="submit" value="Submit">
+               <input class="bg-success" type="submit" value="Submit">
             </div>
-        </form>
-    </div>
-
-        <footer class="continer-fluid footer bg-footer">
-            <div class="row no-gutters footer-row-main">
-                <div class="col-lg-8 col-md-12">
-                    <div class="row no-gutters footer-row" id="sponsors">
-                        <div class="col-md-8">
-                            <h6 class="footer-heading d-none d-lg-block">Check out our sponsors...</h6>
-                        </div>
-                        <div class="col-lg-4 col-md-12" id="sponsors-links">
-                            <ul class="list-inline footer-links">
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://eu.callawaygolf.com/" target="blank"><img src="https://i.pinimg.com/originals/65/62/94/656294ac5d8f442ff6f71defae3aafbb.png" alt="Callaway"></a>
-                                </li>
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://www.nike.com/ie/" target="blank"><img src="https://i.pinimg.com/originals/20/60/2d/20602d43cc993811e5a6bd1886af4f33.png" alt="Nike"></a>
-                                </li>
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://ping.com/en-us/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/PING_logo.svg/1280px-PING_logo.svg.png" alt="Ping"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row no-gutters footer-row" id="social">
-                        <div class="col-md-8">
-                            <h6 class="footer-heading d-none d-lg-block">Get connected on our social media...</h6> 
-                        </div>
-                        <div class="col-lg-4 col-md-12" id="social-links">                
-                            <ul class="list-inline footer-links">
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://facebook.com" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                </li>
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://twitter.com" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                </li>
-                                <li class="list-inline-item footer-link">
-                                    <a href="https://instagram.com" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 footer-contact-details">
-                    <p class="contact">
-                        <b><i class="fa fa-home" aria-hidden="true"></i></b> 107 Derval Way<br>
-                        Ballyboughtoe<br>
-                        Dublin 4<br>                       
-                        <br>
-                        <b><i class="fa fa-envelope-o" aria-hidden="true"></i></b> info@irishgolfsociety.ie<br>
-                        <br>
-                         <b><i class="fa fa-phone" aria-hidden="true"></i></b> 01-993-54990
-                    </p>
-                </div>
+         </form>
+      </div>
+      <!-----FOOTER-->
+      <footer class="continer-fluid footer bg-footer">
+         <div class="row no-gutters footer-row-main">
+            <div class="col-lg-8 col-md-12">
+               <div class="row no-gutters footer-row" id="sponsors">
+                  <div class="col-lg-8">
+                     <h6 class="footer-heading d-lg-block">Check out our sponsors...</h6>
+                  </div>
+                  <!-----SPONSORS-->
+                  <div class="col-lg-4 col-md-12" id="sponsors-links">
+                     <ul class="list-inline footer-links">
+                        <li class="list-inline-item footer-link">
+                           <a href="https://eu.callawaygolf.com/" target="_blank"><img src="https://i.pinimg.com/originals/65/62/94/656294ac5d8f442ff6f71defae3aafbb.png" alt="Callaway">
+                           <span class="sr-only">Callaway</span></a>
+                        </li>
+                        <li class="list-inline-item footer-link">
+                           <a href="https://www.nike.com/ie/" target="_blank"><img src="https://i.pinimg.com/originals/20/60/2d/20602d43cc993811e5a6bd1886af4f33.png" alt="Nike">
+                           <span class="sr-only">Nike</span></a>
+                        </li>
+                        <li class="list-inline-item footer-link">
+                           <a href="https://ping.com/en-us/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/PING_logo.svg/1280px-PING_logo.svg.png" alt="Ping">
+                           <span class="sr-only">Ping</span></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row no-gutters footer-row" id="social">
+                  <div class="col-lg-8">
+                     <h6 class="footer-heading d-lg-block">Get connected on our social media...</h6>
+                  </div>
+                  <!-----SOCIAL-->
+                  <div class="col-lg-4 col-md-12" id="social-links">
+                     <ul class="list-inline footer-links">
+                        <li class="list-inline-item footer-link">
+                           <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
+                           <span class="sr-only">Facebook</span></a>
+                        </li>
+                        <li class="list-inline-item footer-link">
+                           <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>
+                           <span class="sr-only">Twitter</span></a>
+                        </li>
+                        <li class="list-inline-item footer-link">
+                           <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>
+                           <span class="sr-only">Instagram</span></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
             </div>
-    </footer>
-</body>
+            <!-----CONTACT-->
+            <div class="col-lg-4 col-md-12 footer-contact-details">
+               <p class="contact">
+                  <b><i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">Address</span></b> 107 Derval Way<br>
+                  Ballyboughtoe<br>
+                  Dublin 4<br>                       
+                  <br>
+                  <b><i class="fa fa-envelope-o" aria-hidden="true"></i><span class="sr-only">Email</span></b><a href="mailto:info@irishgolfsociety.ie"> info@irishgolfsociety.ie</a><br>
+                  <br>
+                  <b><i class="fa fa-phone" aria-hidden="true"></i><span class="sr-only">Phone</span></b> 01-993-54990
+               </p>
+            </div>
+         </div>
+      </footer>
+      <!----SCRIPTS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   </body>
 </html>
