@@ -666,6 +666,7 @@ header {
 .calendar-directions {
 	padding: 5px;
 	width: 100%;
+    overflow: hidden;
 }
 
 .calendar-map {
