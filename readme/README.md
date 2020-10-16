@@ -76,7 +76,7 @@ The website can be viewed [here]().
   - **Ladies' Leaderboard table** so Ladies can see their position on the leaderboard
 
 
-**Register Form
+**Register Form**
   - **HTML5 form** so a user can input all the relevant information to register for an event. 
   
 ## Feature Roadmap
@@ -102,6 +102,27 @@ The website can be viewed [here]().
 - [Font Awesome](https://fontawesome.com/) - various Icons for abstract marketing as well as social media branding
 - [Am I Responsive?](http://ami.responsivedesign.is/) - responsiveness visualisation.
 
+
+## Deployment
+
+**To deploy**
+
+The Irish Golf Society is hosted on **GitHub Pages**
+
+1. In the GitHub repository select **Settings**.
+2. The **Pages** section is 75% down the page, scroll here. 
+3. In the **Source** dropdown menu select **master**.
+4. The website is now deployed.
+
+**To clone from Github**
+
+1. In the Github repository click the green **Code** button.
+2. Select clone protocol of your choice (SSL/HTTP/CLI)
+3. Go to your IDE.
+3. open **Git Bash**.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type **git clone**, and then paste the URL copied from GitHub.
+6. Press **enter** and the local clone will be created.
 
 
 
