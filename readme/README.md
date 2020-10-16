@@ -119,10 +119,23 @@ The Irish Golf Society is hosted on **GitHub Pages**
 1. In the Github repository click the green **Code** button.
 2. Select clone protocol of your choice (SSL/HTTP/CLI)
 3. Go to your IDE.
-3. open **Git Bash**.
+3. Open **Git Bash**.
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type **git clone**, and then paste the URL copied from GitHub.
 6. Press **enter** and the local clone will be created.
 
+
+## Credits
+As this project is ficticious, the majority of the content was imagined and devised by myself. 
+
+[W3Schools](https://www.w3schools.com/) 
+
+The pictures of the Golf courses are taken from the individual websites of the real courses mentioned in this site. 
+
+## Acknowledgments
+
+[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for all his support and guidance.
+
+I would also like to thank Susan for their feedback and support through this process!
 
 
