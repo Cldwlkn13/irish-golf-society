@@ -237,5 +237,3 @@ The pictures of the Golf courses are taken from the individual websites of the r
 [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for all his support and guidance.
 
 I would also like to thank Susan for their feedback and support through this process!
-
-
