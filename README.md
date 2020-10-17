@@ -1,6 +1,6 @@
-#### The Irish Golf Society
+# The Irish Golf Society
 
-![The Irish Golf Society](assets/images/am-i-responsive.JPG)
+![The Irish Golf Society](readme-files/am-i-responsive.JPG)
 
 ## Who are we?
 
