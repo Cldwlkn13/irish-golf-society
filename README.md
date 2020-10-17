@@ -95,6 +95,9 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
   
 ## Feature Roadmap
 
+**Standings**
+ - Leaderboards compile from database of score information, rather than displayed from typed HTML. 
+
 **Register Form**
  - Form should select the correct event in the event dropdown depending on the source of the click. 
  - Form should persist information to a database upon submit. 
@@ -202,6 +205,13 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
  
 - As a Golf Club owner, I want to see the event scheduled is being promoted. 
   - Calendar page shows all the upcoming events with attractive images and links to the Club's homepage. 
+
+**Bugs**
+ - The scaling of HTML table on the standings page was quite poor without some alterations to the font size and paddings in the media queries. 
+ - The timeline "Latest News" feature did not perform well at lower screen sizes. The circles and the lines became detached. So at the smaller sizes a design decision was made to remove the line. 
+ - The duration of the ticker animation was poor when implemented and would not show the full information before commencing the next loop. This was fixed by amending the 'animation-duration' property to 40 seconds. 
+ - Trying to click the links in the ticker was troublesome as the ticker did not pause and the user could physically miss the link. So a pause on hover action was implemented. 
+ 
 
 ## Deployment
 
