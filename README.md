@@ -116,6 +116,21 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
 - [Font Awesome](https://fontawesome.com/) - various Icons for abstract marketing as well as social media branding
 - [Am I Responsive?](http://ami.responsivedesign.is/) - responsiveness visualisation.
 
+## Testing
+
+**HTML Validtion**
+- **Home Page**
+ ![Home Page Html Validation](readme-files/homepage-html-errors)
+ *The errors listed above were ignored as the headings for this page were handled in a different manner.
+ 
+- **Calendar**
+ ![Calendar Html Validation](readme-files/calendar-html-errors)
+ 
+ - **Standings**
+ ![Standings Html Validation](readme-files/standings-html-errors)
+ 
+ - **Register**
+ ![Register Html Validation](readme-files/register-html-errors)
 
 ## Deployment
 
