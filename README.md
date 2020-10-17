@@ -42,6 +42,8 @@ The website can be viewed [here]().
 
 ## Wireframes
 
+Wireframes were designed using Microsoft Powerpoint and images of the slides can be viewed in the following table:
+
 |    Desktop   |    Tablet    |    Mobile    |
 |    :----:    |     :----:   |    :----:    |
 |[Home Page](assets/wireframes/homepage-desktop.JPG)|[Home Page](assets/wireframes/homepage-tablet.JPG)|[Home Page](assets/wireframes/homepage-mobile.JPG)|
