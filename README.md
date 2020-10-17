@@ -1,3 +1,7 @@
+# The Irish Golf Society
+
+![The Irish Golf Society](readme-files/am-i-responsive.JPG)
+
 ## Who are we?
 
 The Irish Golf Society is a fictional Golf society, organising premium Golf days, in a long running societal format. The main ethos for the society is to encourage golfers of any ability/background to enjoy great experiences in friendly and inclusive environment. 
@@ -41,6 +45,16 @@ The website can be viewed [here]().
 
 
 ## Wireframes
+
+Wireframes were designed using Microsoft Powerpoint and images of the slides can be viewed in the following table:
+
+|    Desktop   |    Tablet    |    Mobile    |
+|    :----:    |     :----:   |    :----:    |
+|[Home Page](assets/wireframes/homepage-desktop.JPG)|[Home Page](assets/wireframes/homepage-tablet.JPG)|[Home Page](assets/wireframes/homepage-mobile.JPG)|
+|[Calendar](assets/wireframes/calendar-desktop.JPG)|[Calendar](assets/wireframes/calendar-tablet.JPG)|[Calendar](assets/wireframes/calendar-mobile.JPG)|
+|[Standings](assets/wireframes/standings-desktop.JPG)|[Standings](assets/wireframes/standings-tablet.JPG)|[Standings](assets/wireframes/standings-mobile.JPG)|
+
+---
 
 ## Site Features 
 
