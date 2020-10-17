@@ -138,6 +138,9 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
  
  **CSS Validation**
  
+ 0 errors
+
+ ![CSS Validation](readme-files/css-errors.JPG)
  
 
 ## Deployment
