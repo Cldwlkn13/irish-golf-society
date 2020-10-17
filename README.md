@@ -49,6 +49,8 @@ The website can be viewed [here]().
 |[Calendar](assets/wireframes/calendar-desktop.JPG)|[Calendar](assets/wireframes/calendar-tablet.JPG)|[Calendar](assets/wireframes/calendar-mobile.JPG)|
 |[Standings](assets/wireframes/standings-desktop.JPG)|[Standings](assets/wireframes/standings-tablet.JPG)|[Standings](assets/wireframes/standings-mobile.JPG)|
 
+---
+
 ## Site Features 
 
 **Header** contains
