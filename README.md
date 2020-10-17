@@ -1,3 +1,7 @@
+#### The Irish Golf Society
+
+![The Irish Golf Society](assets/images/am-i-responsive.JPG)
+
 ## Who are we?
 
 The Irish Golf Society is a fictional Golf society, organising premium Golf days, in a long running societal format. The main ethos for the society is to encourage golfers of any ability/background to enjoy great experiences in friendly and inclusive environment. 
