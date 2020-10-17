@@ -158,7 +158,7 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
  
   ![Desktop Testing](readme-files/tablet-testing.JPG)
  
-**User Story Testing
+**User Story Testing**
 
 - As the society director, I want to be able to attract new players to register for an event. 
  - User can see attractive site design, with lots of relevant information on the homepage. Can also identify the next upcoming event and information pertaining to it. 
