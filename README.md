@@ -42,6 +42,13 @@ The website can be viewed [here]().
 
 ## Wireframes
 
+|    Desktop   |    Tablet    |    Mobile    |
+|    :----:    |    :----:    |    :----:    |
+
+|[Home Page](assets/wireframes/homepage-desktop.JPG)|[Home Page](assets/wireframes/homepage-tablet.JPG)|[Home Page](assets/wireframes/homepage-mobile.JPG)|
+|[Calendar](assets/wireframes/calendar-desktop.JPG)|[Calendar](assets/wireframes/calendar-tablet.JPG)|[Calendar](assets/wireframes/calendar-mobile.JPG)|
+|[Standings](assets/wireframes/standings-desktop.JPG)|[Standings](assets/wireframes/standings-tablet.JPG)|[Standings](assets/wireframes/standings-mobile.JPG)|
+
 ## Site Features 
 
 **Header** contains
