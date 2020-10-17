@@ -6,7 +6,7 @@
 
 The Irish Golf Society is a fictional Golf society, organising premium Golf days, in a long running societal format. The main ethos for the society is to encourage golfers of any ability/background to enjoy great experiences in friendly and inclusive environment. 
 
-Founded by two brothers, John and James (?) who felt as though there was a niche in the market for golfers who wanted the opportunity to play premium courses for much better value than was being offered in the open market.
+Founded by two brothers, John and James Herron who felt as though there was a niche in the market for golfers who wanted the opportunity to play premium courses for much better value than was being offered in the open market.
 
 To provide context, they have devised the following networking business model:
 
@@ -118,6 +118,7 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
 - [Google Fonts](https://fonts.google.com/) - source of fonts for the site.
 - [Font Awesome](https://fontawesome.com/) - various Icons for abstract marketing as well as social media branding
 - [Am I Responsive?](http://ami.responsivedesign.is/) - responsiveness visualisation.
+- [Microsoft Powerpoint]() - wireframe designs.
 
 ## Testing
 
@@ -237,10 +238,21 @@ The Irish Golf Society is hosted on **GitHub Pages**
 
 ## Credits
 As this project is ficticious, the majority of the content was imagined and devised by myself. 
+ 
+[lewismcarey](https://codepen.io/lewismcarey/pen/GJZVoG) for providing the source code idea for the ticker. 
 
-[W3Schools](https://www.w3schools.com/) 
+[W3Schools](https://www.w3schools.com/) for providing various tips and tricks throughout the development process, in particular the "Latest News" timeline feature.
 
-The pictures of the Golf courses are taken from the individual websites of the real courses mentioned in this site. 
+The pictures of the Golf courses mentioned in this site were sourced from the following locations:
+https://www.top100golfcourses.com/
+https://www.scotsman.com/
+https://www.golfdigest.com/
+https://images.squarespace-cdn.com/
+https://www.druidsglenresort.com/
+https://irishgolfer.ie/
+https://www.oldgroundhotelennis.com/
+https://www.golfholidays.com/
+
 
 ## Acknowledgments
 
