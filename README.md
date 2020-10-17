@@ -120,17 +120,17 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
 
 **HTML Validtion**
 - **Home Page**
- ![Home Page Html Validation](readme-files/homepage-html-errors)
+ ![Home Page Html Validation](readme-files/homepage-html-errors.JPG)
  *The errors listed above were ignored as the headings for this page were handled in a different manner.
  
 - **Calendar**
- ![Calendar Html Validation](readme-files/calendar-html-errors)
+ ![Calendar Html Validation](readme-files/calendar-html-errors.JPG)
  
  - **Standings**
- ![Standings Html Validation](readme-files/standings-html-errors)
+ ![Standings Html Validation](readme-files/standings-html-errors.JPG)
  
  - **Register**
- ![Register Html Validation](readme-files/register-html-errors)
+ ![Register Html Validation](readme-files/register-html-errors.JPG)
 
 ## Deployment
 
