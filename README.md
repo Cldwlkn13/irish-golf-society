@@ -142,6 +142,23 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
 
  ![CSS Validation](readme-files/css-errors.JPG)
  
+ **Responsiveness Quality Testing**
+ *Testing conducted on [Responsive Design Checker](https://responsivedesignchecker.com/)
+ 
+ - **Mobile**
+ 
+  ![Mobile Testing](readme-files/mobile-testing.JPG)
+ 
+ - **Tablet**
+ 
+  ![Tablet Testing](readme-files/tablet-testing.JPG)
+  
+ - **Desktop**
+ 
+  ![Desktop Testing](readme-files/tablet-testing.JPG)
+ 
+
+ 
 
 ## Deployment
 
