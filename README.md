@@ -119,22 +119,46 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
 ## Testing
 
 **HTML Validation**
-- **Home Page**
+- **Home Page** : 3 errors
 
  ![Home Page Html Validation](readme-files/homepage-html-errors.JPG)
  *The errors listed above were ignored as the headings for this page were handled in a different manner.
  
-- **Calendar**
+- **Calendar** : 0 errors
 
  ![Calendar Html Validation](readme-files/calendar-html-errors.JPG)
  
-- **Standings**
+- **Standings** : 0 errors
 
  ![Standings Html Validation](readme-files/standings-html-errors.JPG)
  
-- **Register**
+- **Register** : 0 errors
 
  ![Register Html Validation](readme-files/register-html-errors.JPG)
+ 
+ **CSS Validation**
+ 
+ 0 errors
+
+ ![CSS Validation](readme-files/css-errors.JPG)
+ 
+ **Responsiveness Quality Testing**
+ *Testing conducted on [Responsive Design Checker](https://responsivedesignchecker.com/)
+ 
+ - **Mobile**
+ 
+  ![Mobile Testing](readme-files/mobile-testing.JPG)
+ 
+ - **Tablet**
+ 
+  ![Tablet Testing](readme-files/tablet-testing.JPG)
+  
+ - **Desktop**
+ 
+  ![Desktop Testing](readme-files/tablet-testing.JPG)
+ 
+
+ 
 
 ## Deployment
 
