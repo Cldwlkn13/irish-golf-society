@@ -162,6 +162,22 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
  
   ![Desktop Testing](readme-files/tablet-testing.JPG)
  
+**Browser Compatibility** 
+
+ - **Google Chrome** No issues identified. 
+ 
+ - **Microsoft Internet Explorer**
+  - [Ticker Issue](readme-files/ie-ticker-issue.JPG) The animation on the ticker can be intermittently faulty.
+  - The background of the Register form does not show correctly.
+  - The Glow effect on the navbar does not work as expected.  
+  
+ - **Microsoft Edge** No issues identified. 
+   
+ - **Mozilla Firefox** No issues identified. 
+    
+ - **Opera** No issues identified. 
+ 
+ 
 **User Story Testing**
 
 - As the society director, I want to be able to attract new players to register for an event. 
