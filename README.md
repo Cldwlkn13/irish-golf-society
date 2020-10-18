@@ -239,6 +239,8 @@ The Irish Golf Society is hosted on **GitHub Pages**
 ## Credits
 As this project is ficticious, the majority of the content was imagined and devised by myself. 
  
+[svgbackgrounds](https://www.svgbackgrounds.com/) for the background theme on each page. 
+
 [lewismcarey](https://codepen.io/lewismcarey/pen/GJZVoG) for providing the source code idea for the ticker. 
 
 [W3Schools](https://www.w3schools.com/) for providing various tips and tricks throughout the development process, in particular the "Latest News" timeline feature.
