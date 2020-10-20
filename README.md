@@ -20,7 +20,7 @@ To provide context, they have devised the following networking business model:
 
 The future vision for the society is the evolve into a "Club" type of organisation. Where members pay a yearly fee, and can not only play organised events but can play premium courses on a significant discount from the open market. 
 
-The website can be viewed [here]().
+The website can be viewed [here](https://cldwlkn13.github.io/irish-golf-society/).
 
 ### Why do the IGS need a website?
 
