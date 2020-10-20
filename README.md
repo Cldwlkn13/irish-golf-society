@@ -125,26 +125,24 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
 ## Testing
 
 **HTML Validation**
-- **Home Page** : 3 errors
+- **[Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcldwlkn13.github.io%2Firish-golf-society%2F)** : 3 errors
 
  ![Home Page Html Validation](readme-files/homepage-html-errors.JPG)
  *The errors listed above were ignored as the headings for this page were handled in a different manner.
  
-- **Calendar** : 0 errors
+- **[Calendar](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcldwlkn13.github.io%2Firish-golf-society%2Fcalendar)** : 0 errors
 
  ![Calendar Html Validation](readme-files/calendar-html-errors.JPG)
  
-- **Standings** : 0 errors
+- **[Standings](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcldwlkn13.github.io%2Firish-golf-society%2Fstandings)** : 0 errors
 
  ![Standings Html Validation](readme-files/standings-html-errors.JPG)
  
-- **Register** : 0 errors
+- **[Register](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcldwlkn13.github.io%2Firish-golf-society%2Fregister)** : 0 errors
 
  ![Register Html Validation](readme-files/register-html-errors.JPG)
  
  **CSS Validation**
- 
- 0 errors
 
  ![CSS Validation](readme-files/css-errors.JPG)
  
