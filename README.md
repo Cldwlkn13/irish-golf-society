@@ -2,7 +2,9 @@
 
 ![The Irish Golf Society](readme-files/am-i-responsive.JPG)
 
-## Who are we?
+## UX
+
+### Who are we?
 
 The Irish Golf Society is a fictional Golf society, organising premium Golf days, in a long running societal format. The main ethos for the society is to encourage golfers of any ability/background to enjoy great experiences in friendly and inclusive environment. 
 
@@ -20,7 +22,7 @@ The future vision for the society is the evolve into a "Club" type of organisati
 
 The website can be viewed [here]().
 
-## Why do the IGS need a website?
+### Why do the IGS need a website?
 
 1. As a marketing tool to new potential players.
 2. An interface to register for an event of the user's choosing through the registration form.
@@ -28,7 +30,7 @@ The website can be viewed [here]().
 4. Results/Leaderboard information for existing participants. 
 5. Sponsorship affiliation.
 
-## User Stories 
+### User Stories 
 
 - As the society director, I want to be able to attract new players to register for an event. 
 - As the society director, I want to ensure that my sponsors are well represented where possible and their homepages can be easily navigated to. 
@@ -44,19 +46,19 @@ The website can be viewed [here]().
 - As a Golf Club owner, I want to see the event scheduled is being promoted. 
 
 
-## Wireframes
+### Wireframes
 
 Wireframes were designed using Microsoft Powerpoint and images of the slides can be viewed in the following table:
 
 |    Desktop   |    Tablet    |    Mobile    |
 |    :----:    |     :----:   |    :----:    |
-|[Home Page](assets/wireframes/homepage-desktop.JPG)|[Home Page](assets/wireframes/homepage-tablet.JPG)|[Home Page](assets/wireframes/homepage-mobile.JPG)|
-|[Calendar](assets/wireframes/calendar-desktop.JPG)|[Calendar](assets/wireframes/calendar-tablet.JPG)|[Calendar](assets/wireframes/calendar-mobile.JPG)|
-|[Standings](assets/wireframes/standings-desktop.JPG)|[Standings](assets/wireframes/standings-tablet.JPG)|[Standings](assets/wireframes/standings-mobile.JPG)|
+|[Home Page](wireframes/desktop/homepage-desktop.JPG)|[Home Page](wireframes/tablet/homepage-tablet.JPG)|[Home Page](wireframes/mobile/homepage-mobile.JPG)|
+|[Calendar](wireframes/desktop/calendar-desktop.JPG)|[Calendar](wireframes/tablet/calendar-tablet.JPG)|[Calendar](wireframes/mobile/calendar-mobile.JPG)|
+|[Standings](wireframes/desktop/standings-desktop.JPG)|[Standings](wireframes/tablet/standings-tablet.JPG)|[Standings](wireframes/mobile/standings-mobile.JPG)|
 
 ---
 
-## Site Features 
+## Features 
 
 **Header** contains
 - **Society Name/Logo** Easily identifiable branding
@@ -93,7 +95,7 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
 **Register Form**
   - **HTML5 form** so a user can input all the relevant information to register for an event. 
   
-## Feature Roadmap
+### Feature Roadmap
 
 **Standings**
  - Leaderboards compile from database of score information, rather than displayed from typed HTML. 
@@ -167,9 +169,9 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
  - **Google Chrome** No issues identified. 
  
  - **Microsoft Internet Explorer**
-  - [Ticker Issue](readme-files/ie-ticker-issue.JPG) The animation on the ticker can be intermittently faulty.
-  - The background of the Register form does not show correctly.
-  - The Glow effect on the navbar does not work as expected.  
+    - [Ticker Issue](readme-files/ie-ticker-issue.JPG) The animation on the ticker can be intermittently faulty.
+    - The background of the Register form does not show correctly.
+    - The Glow effect on the navbar does not work as expected.  
   
  - **Microsoft Edge** No issues identified. 
    
@@ -251,6 +253,7 @@ The Irish Golf Society is hosted on **GitHub Pages**
 5. Type **git clone**, and then paste the URL copied from GitHub.
 6. Press **enter** and the local clone will be created.
 
+*for more information on cloning in git hub, please see [github cloning documentation](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
 As this project is ficticious, the majority of the content was imagined and devised by myself. 
