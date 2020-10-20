@@ -167,7 +167,7 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
  - **Google Chrome** No issues identified. 
  
  - **Microsoft Internet Explorer**
-    - [Ticker Issue](readme-files/ie-ticker-issue.JPG) The animation on the ticker can be intermittently faulty.
+    - [Ticker Issue](readme-files/ie-ticker-bug.JPG) The animation on the ticker can be intermittently faulty.
     - The background of the Register form does not show correctly.
     - The Glow effect on the navbar does not work as expected.  
   
