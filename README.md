@@ -120,7 +120,7 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
 - [Google Fonts](https://fonts.google.com/) - source of fonts for the site.
 - [Font Awesome](https://fontawesome.com/) - various Icons for abstract marketing as well as social media branding
 - [Am I Responsive?](http://ami.responsivedesign.is/) - responsiveness visualisation.
-- [Microsoft Powerpoint]() - wireframe designs.
+- [Microsoft Powerpoint](https://en.wikipedia.org/wiki/Microsoft_PowerPoint) - wireframe designs.
 
 ## Testing
 
