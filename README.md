@@ -180,47 +180,47 @@ Wireframes were designed using Microsoft Powerpoint and images of the slides can
  
 **User Story Testing**
 
-- As the society director, I want to be able to attract new players to register for an event. 
+- As the **society director**, I want to be able to attract new players to register for an event. 
   - User can see attractive site design, with lots of relevant information on the homepage. Can also identify the next upcoming event and information pertaining to it. 
 
-- As the society director, I want to ensure that my sponsors are well represented where possible and their homepages can be easily navigated to. 
+- As the **society director**, I want to ensure that my sponsors are well represented where possible and their homepages can be easily navigated to. 
   - Key sponsor links are available in the footer on each page. 
   - Sponsors are referenced in other news articles where relevant.
   - Sponsor links correctly open in a new browser tab when clicked. 
 
-- As the society director, I want the user to be able to find the information they require quickly through well designed naviagtion.
+- As the **society director**, I want the user to be able to find the information they require quickly through well designed naviagtion.
   - Navigation bar is avaiable fixed to the top of each page. At smaller screen sizes the menu collapses to an attractive dropdown. 
 
-- As the society director, I want the user to be able to access our social media links easily from each page. 
+- As the **society director**, I want the user to be able to access our social media links easily from each page. 
   - Social media links are available in the footer of each page. 
   - They open in a new browser tab when clicked. 
  
-- As a potential customer, I want to see the benefits of why I should register for an event.
+- As a **potential customer**, I want to see the benefits of why I should register for an event.
   - The four key reasons why to register are neatly presented on the homepage.
   - Some background information about the society is presented at the top of the homepage.
   - Testimonial quotes are presented on the homepage.
  
-- As a potential customer, I want to see what other people have been saying about their experiences with the IGS.  
+- As a **potential customer**, I want to see what other people have been saying about their experiences with the IGS.  
   - Testimonial quotes are presented on the homepage.
 
-- As a potential customer, I want to be able to see what events are upcoming.
+- As a **potential customer**, I want to be able to see what events are upcoming.
   -  Next Upcoming Event presented in its own section on the homepage. 
   -  Calendar page displays the full list of upcoming events.
 
-- As a potential customer, I want to be able to see where I can contact the IGS to ask a question.
+- As a **potential customer**, I want to be able to see where I can contact the IGS to ask a question.
   - Contact information, including mailto email link available in the footer of each page. 
  
-- As an existing customer, I want to be able to see my results and position on the leaderboard.
+- As an **existing customer**, I want to be able to see my results and position on the leaderboard.
   - Standings page has two tables with the current leaderboard standings for Men and Women. 
 
-- As an existing customer, I want to be able to get directions to the course where I will be playing. 
+- As an **existing customer**, I want to be able to get directions to the course where I will be playing. 
   - Directions to the course, in the form of a link to Google Maps is available in each section of the calendar page. 
  
-- As a sponsor, I want to see that my brand is being promoted on the site. 
+- As a **sponsor**, I want to see that my brand is being promoted on the site. 
   - Key sponsor links are available in the footer on each page. 
   - Sponsors are referenced in other news articles where relevant.
  
-- As a Golf Club owner, I want to see the event scheduled is being promoted. 
+- As a **Golf Club owner**, I want to see the event scheduled is being promoted. 
   - Calendar page shows all the upcoming events with attractive images and links to the Club's homepage. 
 
 **Bugs**
